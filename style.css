@@ -22,12 +22,14 @@ body {
 /*main element formatting and grid*/
 main {
   display: grid;
-  width: 635px;
+  max-width: 635px;
   height: 475px;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   margin: 0 auto;
-  margin-top: 164px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-bottom: ;
   grid-template-areas:
     "header header"
     "sub why";
@@ -139,6 +141,7 @@ ul {
   font-size: 16px;
   font-weight: 700;
   color: black;
+  text-align: center;
 }
 .attribution a {
   color: var(--dark-ocean);
@@ -157,7 +160,7 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 0 auto;
-    margin-top: 164px;
+    margin-top: 50px;
     grid-template-areas:
       "header"
       "sub"
