@@ -76,12 +76,17 @@ h2 {
 }
 .price {
   margin-top: 18px;
-  color: hsla(0, 0%, 100%, 50%);
-}
-.currency {
   color: white;
   font-size: 32px;
   font-weight: 700;
+}
+.month {
+  color: hsla(0, 0%, 100%, 50%);
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -5px;
 }
 .access {
   margin-top: 4px;
@@ -106,7 +111,7 @@ h2 {
 }
 .sub button:hover {
   cursor: pointer;
-  transition: 1s ease-out;
+  transition: 300ms ease-out;
   background-color: var(--light-ocean);
 }
 h4 {
@@ -133,6 +138,6 @@ ul {
   text-decoration: none;
 }
 .attribution a:hover {
-  transition: 1s;
+  transition: 300ms;
   color: var(--green);
 }
